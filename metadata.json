@@ -1,0 +1,6 @@
+{
+  "name": "IPN",
+  "description": "Fast local network transfer, file sharing, and connection manager.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

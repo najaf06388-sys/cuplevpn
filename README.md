@@ -1,11 +1,27 @@
-<div align="center">
+# VPN - Android APK & Network App
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+This repository contains the source code for the **VPN** app.
 
-  <h1>Built with AI Studio</h2>
+## How to Build the APK on GitHub (Automated)
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+1. **Create a new GitHub Repository**:
+   - Go to [github.com/new](https://github.com/new).
+   - Name it `vpn-app` and create it.
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+2. **Upload this Project to GitHub**:
+   - Unzip the downloaded `vpn-app-source.zip`.
+   - In your terminal/command prompt:
+     ```bash
+     git init
+     git add .
+     git commit -m "Initial commit for VPN app"
+     git branch -M main
+     git remote add origin https://github.com/YOUR_USERNAME/vpn-app.git
+     git push -u origin main
+     ```
 
-</div>
+3. **Download Your APK**:
+   - Go to your repository on GitHub.
+   - Click the **Actions** tab at the top.
+   - The **Build Android APK (VPN)** workflow runs automatically!
+   - Once it finishes (~3-4 minutes), click on the run and download the **VPN-debug.apk** artifact to install on your mobile device.
